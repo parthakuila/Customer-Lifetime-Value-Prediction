@@ -19,10 +19,10 @@ from pymongo import MongoClient
 start = datetime.now()
 
 ## connect with database 
-client = MongoClient('mongodb://10.49.28.126:27017',
-                   username='spectauser',
-                   password='spectaDb#011',
-                   authSource='spectaData',
+client = MongoClient('mongodb://xx.xx.xx.xx:27017',
+                   username='xxxxxxxx',
+                   password='xxxxxxxxxx',
+                   authSource='xxxxxxxxxxxx',
                    authMechanism='SCRAM-SHA-1')
 
 db = client['spectaData']
